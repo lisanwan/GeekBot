@@ -5,7 +5,7 @@ const axios = require('axios').default;
 class Plugin extends Bot {
   constructor () {
     super();
-    this.API = "https://www.v2ex.com/api/topics/hot.json";
+    this.API = "http://lin123456.web3v.com/测试/定时推送.html";
   }
   run () {
     axios.get(this.API).then(res => {
